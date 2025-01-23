@@ -45,7 +45,7 @@ const Home = () => {
                 <p className="constructionText" >My website is still under construction, but in the meantime please take a look at my work experience! </p>
                 <a href={"https://web-portfolio-sam.s3.us-west-2.amazonaws.com/SamGwilliamResume.pdf"} download="SamGwilliamResume.pdf" target={"_blank"}>
                     <Button className="gradient-button-resume" icon={<SolutionOutlined />} iconPosition="start">
-                        View and Download My Resumé
+                        Download My Resumé
                     </Button>
                 </a>
             </div>
