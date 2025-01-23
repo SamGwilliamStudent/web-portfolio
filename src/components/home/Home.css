@@ -58,6 +58,7 @@ h1 {
     font-family: 'Newsreader', serif;
     font-size: x-large;
     font-weight: 500;
+    margin: 0.5rem;
 }
 
 .resumeDownload {
