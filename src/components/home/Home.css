@@ -1,0 +1,109 @@
+h1 {
+    margin: 0;
+}
+
+.infoBox {
+    font-family: 'Newsreader', serif;
+    background-color: lightgray;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.homePage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.infoText {
+    font-family: 'Newsreader', serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.headshot {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.homeDivider {
+    background: black;
+    margin: 16px 0;
+    width: 80%;
+}
+
+.constructionText {
+    font-family: 'Newsreader', serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.resumeDownload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: lightgray;
+    border-radius: 1rem;
+}
+
+.gradient-button-resume {
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Newsreader', serif;
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    border-width: 0;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 1rem 2rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.gradient-button-resume::before {
+    content: '';
+    background: linear-gradient(135deg, #587d8f, #54a8c2);
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    transition: all 0.3s;
+    border-radius: 0.5rem;
+}
+
+.gradient-button-resume:hover::before {
+    opacity: 0;
+}
+
+.gradient-button-resume > span {
+    position: relative;
+    z-index: 1;
+}
+
+.gradient-button-resume:focus {
+    outline: none;
+}

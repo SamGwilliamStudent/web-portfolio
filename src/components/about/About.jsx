@@ -1,0 +1,50 @@
+const About = () => {
+    return (
+        <>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+        </>
+    )
+}
+
+export default About;
