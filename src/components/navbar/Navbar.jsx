@@ -18,7 +18,7 @@ const Navbar = () => {
           </Button>
         </Link>
         <Link className="link" to={"/experience"}>
-          <Button disabledclassName="gradient-button" icon={<ProfileOutlined />}>
+          <Button disabled className="gradient-button" icon={<ProfileOutlined />}>
             Experience
           </Button>
         </Link>
