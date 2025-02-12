@@ -10,20 +10,20 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div >
+    <div>
       <nav className="navbar">
         <Link className="link" to={"/"}>
-          <Button className="gradient-button" icon={<HomeOutlined />} iconPosition={'start'}>
+          <Button className="gradient-button" icon={<HomeOutlined />}>
             Home
           </Button>
         </Link>
         <Link className="link" to={"/experience"}>
-          <Button disabled className="gradient-button" icon={<ProfileOutlined />} iconPosition={'start'}>
+          <Button disabledclassName="gradient-button" icon={<ProfileOutlined />}>
             Experience
           </Button>
         </Link>
         <Link className="link" to={"/about"}>
-          <Button disabled className="gradient-button" icon={<IdcardOutlined />} iconPosition={'start'}>
+          <Button disabled className="gradient-button" icon={<IdcardOutlined />}>
             About
           </Button>
         </Link>
